@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+}
+
+#toDoInput {
+    padding: 8px;
+    width: 200px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+}
+
+button {
+    margin-left: 10px;
+    padding: 4px 8px;
+}
