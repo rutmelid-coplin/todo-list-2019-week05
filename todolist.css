@@ -1,30 +1,46 @@
 body {
     font-family: Arial, sans-serif;
     margin: 40px;
+    background-color: beige;
 }
 
 .container {
-    max-width: 400px;
     margin: auto;
-}
-
-#toDoInput {
-    padding: 8px;
-    width: 200px;
 }
 
 ul {
     list-style: none;
     padding: 0;
+    overflow-wrap: anywhere;
 }
 
 li {
     padding: 8px 0;
     display: flex;
     align-items: center;
+    max-width: 80%;
+    border-bottom: 2px solid black;
+}
+
+p {
+    max-width: 85%;
 }
 
 button {
     margin-left: 10px;
     padding: 4px 8px;
+}
+
+.checkbox {
+    position: absolute;
+    left: 68%;
+}
+
+.removeTaskButton {
+    background-color: rgb(244, 132, 132);
+    color: white;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    left: 70%;
 }
